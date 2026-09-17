@@ -1,87 +1,46 @@
-# AI Based Salary Prediction System Using Linear Regression
+# 💰 AI Salary Prediction System
 
-## Project Overview
-This project predicts an employee's salary based on years of experience using a Linear Regression Machine Learning model. A Streamlit web application provides an easy-to-use interface for making predictions.
+An AI-powered Salary Prediction System that predicts an estimated salary based on years of experience using Machine Learning and Linear Regression.
 
-## Features
-- Exploratory Data Analysis (EDA)
-- Linear Regression Model
-- Streamlit Web Interface
-- Salary Prediction
-- Data Visualization
+## 🚀 Project Overview
 
-## Dataset Information
-**Dataset:** `salary_data.csv`
+This project uses Machine Learning to analyze the relationship between years of professional experience and salary.
 
-Columns:
-- YearsExperience
-- Salary
+The trained Linear Regression model predicts the expected salary for a given number of years of experience.
 
-## Technologies Used
+The project also includes an interactive Streamlit web application where users can enter their experience and get a salary prediction instantly.
+
+## 🎯 Objectives
+
+- Predict salary using years of experience.
+- Apply Linear Regression for prediction.
+- Perform Exploratory Data Analysis (EDA).
+- Visualize salary and experience relationships.
+- Build an interactive Streamlit application.
+- Save and reuse the trained Machine Learning model.
+
+## 🛠️ Technologies Used
+
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Scikit-learn
-- Streamlit
 - Jupyter Notebook
+- Streamlit
+- Joblib
 
-## Installation Requirements
-
-```bash
-pip install -r requirements.txt
-```
-
-Or:
-
-```bash
-pip install pandas numpy matplotlib scikit-learn streamlit
-```
-
-## Project Structure
+## 📂 Project Structure
 
 ```text
-AI_Salary_Prediction_System/
-│── salary_data.csv
-│── salary_model.pkl
-│── train_model.py
-│── app.py
-│── EDA_Salary_Prediction.ipynb
-│── Project_Synopsis.pdf
-│── README.md
-│── requirements.txt
-```
-
-## Steps to Run
-
-1. Train the model:
-```bash
-python train_model.py
-```
-
-2. Run the Streamlit app:
-```bash
-streamlit run app.py
-```
-
-3. Open:
-`http://localhost:8501`
-
-## Expected Output
-- Predict salary from years of experience.
-- Display dataset preview.
-- Show regression graph.
-
-## Future Scope
-- Add education, skills and job role.
-- Use larger datasets.
-- Deploy online.
-
-## Developed By
-**Name:** ____________________
-
-**Course:** B.Tech (Computer Science & Engineering)
-
-**Training:** AI / Machine Learning
-
-**University:** Shaheed Bhagat Singh State University, Ferozepur
+AI-Salary-Prediction-System/
+│
+├── app.py
+├── salary_data.csv
+├── salary_model.pkl
+├── Train_model.ipynb
+├── EDA_Salary_Prediction.ipynb
+├── project_synopsis.pdf
+├── requirements.txt
+├── README.md
+└── .gitignore
