@@ -8,7 +8,7 @@ An AI-powered Salary Prediction System that predicts an estimated salary based o
 
 ### Salary Prediction Streamlit App
 
-![AI Salary Prediction App](salary_prediction_app.png)
+![AI Salary Prediction App](dashboard1.PNG)
 
 This project uses Machine Learning to analyze the relationship between years of professional experience and salary.
 
